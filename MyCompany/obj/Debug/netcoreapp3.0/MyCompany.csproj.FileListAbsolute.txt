@@ -78,4 +78,10 @@ C:\Users\Даниил Новиков\Desktop\ASP.NET MVC\MyCompany\MyCompany\obj
 C:\Users\Даниил Новиков\Desktop\ASP.NET MVC\MyCompany\MyCompany\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Даниил Новиков\Desktop\ASP.NET MVC\MyCompany\MyCompany\bin\Debug\netcoreapp3.0\appsettings.production.json
 C:\Users\Даниил Новиков\Desktop\ASP.NET MVC\MyCompany\MyCompany\bin\Debug\netcoreapp3.0\appsettings.staging.json
+C:\Users\Даниил Новиков\Desktop\ASP.NET MVC\MyCompany\MyCompany\obj\Debug\netcoreapp3.0\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\Даниил Новиков\Desktop\ASP.NET MVC\MyCompany\MyCompany\obj\Debug\netcoreapp3.0\MyCompany.csprojAssemblyReference.cache
+C:\Users\Даниил Новиков\Desktop\ASP.NET MVC\MyCompany\MyCompany\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+C:\Users\Даниил Новиков\Desktop\ASP.NET MVC\MyCompany\MyCompany\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\Даниил Новиков\Desktop\ASP.NET MVC\MyCompany\MyCompany\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\Даниил Новиков\Desktop\ASP.NET MVC\MyCompany\MyCompany\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\TextFields\Edit.cshtml.g.cs
+C:\Users\Даниил Новиков\Desktop\ASP.NET MVC\MyCompany\MyCompany\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\ServiceItems\Edit.cshtml.g.cs

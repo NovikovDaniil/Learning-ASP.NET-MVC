@@ -22,6 +22,7 @@ namespace MyCompany.Domain
         {
             base.OnModelCreating(modelBuilder);
 
+            //роль-админ
             modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole
             {
                 Id = "8af10569-b018-4fe7-a380-7d6a14c70b74",
@@ -29,6 +30,7 @@ namespace MyCompany.Domain
                 NormalizedName = "ADMIN"
             });
 
+            //пользователь-админ
             modelBuilder.Entity<IdentityUser>().HasData(new IdentityUser
             {
                 Id="3b62472e-4f66-49fa-a20f-e7685b9565d8",
@@ -41,6 +43,7 @@ namespace MyCompany.Domain
                 SecurityStamp=string.Empty
             });
 
+            //соотнесли пользоваелю-админу его роль
             modelBuilder.Entity<IdentityUserRole<string>>().HasData(new IdentityUserRole<string>
             {
                 RoleId = "8af10569-b018-4fe7-a380-7d6a14c70b74",
