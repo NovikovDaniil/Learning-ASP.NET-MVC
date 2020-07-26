@@ -1,0 +1,27 @@
+﻿@model IQueryable<ServiceItem>
+
+@{
+    TextField textField = ViewBag.TextField;
+
+    ViewBag.Title = textField.Title;
+    ViewBag.Description = textField.MetaDescription;
+    ViewBag.Keywords = textField.MetaKeywords;
+}
+
+<div>
+    @if(Model.Any())
+    {
+        <ul class="big-image-list">
+            @foreach(var item in Model)
+            {
+                <li>
+                    <a asp-area="" asp-controller="Services" asp-action="Index" asp-route-id="@item.Id">
+                        <img src="~/images/@item.TitleImagePath" alt="" class="left"/>
+                    </a>
+                    <h4>@item.Title</h4>
+                    <p>@item.Subtitle</p>
+                </li>
+            }
+        </ul>
+    }
+</div>
